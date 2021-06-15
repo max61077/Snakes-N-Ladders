@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+}
+
+.name {
+    flex: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.name > img {
+    width: 250px;
+    height: 250px;
+    margin-top: 5vh;
+}
+
+.name > h3 {
+    margin-top: 7vh;
+    border: 1px solid grey;
+    padding: 20px;
+    color: lightseagreen;
+    border-radius: 10px;
+    min-width: 50%;
+    text-align: center;
+    border: 1px solid lightseagreen;
+    box-shadow: 1px 2px 3px lightseagreen;
+}
+
+.name > h2 {
+    width: 75%;
+    color: rgb(219, 37, 37);
+    padding: 20px;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.box {
+    height: 57px;
+    width: 57px;
+    background-color: dodgerblue;
+    align-self: flex-end;
+    position: absolute;
+    bottom: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.modal {
+    margin-top: 10vh;
+    padding: 10px;
+    background-color: aliceblue;
+    width: 30vw;
+    height: 30vh;
+    box-shadow: 1px 2px 3px darkslategray;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: darkslategray;
+    visibility: hidden;
+}
+
+.board {
+    background-color: white;
+    height: 600px;
+    width: 600px;
+    box-shadow: 1px 2px 3px grey;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.ebox {
+    height: 60px;
+    width: 60px;
+}
+
+.obox {
+    height: 60px;
+    width: 60px;
+}
+
+.obox, .ebox {
+    color: darkslategray;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.diceContainer {
+    flex: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.diceContainer > .info {
+    position: absolute;
+    top: 5vh;
+    text-align: center;
+}
+
+.diceContainer > .info > h1 {
+    color: dodgerblue;
+}
+
+.diceContainer > .info > .msg {
+    margin-top: 4vh;
+    color: red;
+}
+
+.diceContainer > .diceVal {
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    color: darkslategray;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: tomato;
+    border: 1px solid tomato;
+    box-shadow: 1px 2px 3px tomato;
+}
+
+button {
+    margin-top: 25px;
+    padding: 10px;
+    border: 1px solid lightgreen;
+    border-radius: 5px;
+    color: lightseagreen;
+    box-shadow: 1px 2px 3px lightgreen;
+}
+
+button:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake-N-Ladder</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div class="container">
+
+        <div class="modal">
+            <h1 style="color: lightseagreen">Congrats!! You Won</h1>
+            <h2 style="color: tomato;">Total Chances Taken: <span id="tc">0</span></h2>
+            <button id="replay">Play Again</button>
+        </div>
+
+        <div class="name">
+            <img
+            src="https://www.vervelogic.com/images/services/other/snake-and-ladders/snake-and-ladders.png"
+            alt="logo"
+            />
+            <h3>Player</h3>
+            <div class="box">P</div>
+        </div>
+
+        <div class="board">
+        </div>
+
+        <div class="diceContainer">
+            <div class="info">
+                <h1>Notifications</h1>
+                <h2 class="msg"></h2>
+            </div>
+            <div class="diceVal">1</div>
+            <button id="dice" >Roll Dice</button>
+        </div>
+
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
